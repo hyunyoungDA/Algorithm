@@ -1,0 +1,45 @@
+### 28278 스택2
+
+import sys
+input = sys.stdin.readline
+
+class stack:
+  def __init__(self):
+    self.items = []
+  
+  def push(self, x):
+    self.items.append(x)
+    
+  def pop(self):
+    if len(self.items) >= 1:
+      print(self.items.pop())
+    else: print(-1)
+  
+  def size(self):
+    print(len(self.items))
+    
+  def is_empty(self):
+    print(1 if len(self.items) == 0 else 0)
+  
+  def top(self):
+    print(self.items[-1] if len(self.items) >= 1 else -1)
+    
+  def processing(self, commands):
+    for command in commands:
+      if command[0] == '1':
+        self.push(int(command[1]))
+      elif command[0] == '2':
+        self.pop()
+      elif command[0] == '3':
+        self.size()
+      elif command[0] == '4':
+        self.is_empty()
+      elif command[0] == '5':
+        self.top()
+    
+
+s = stack()
+n = int(input())
+
+commands = [input().split() for i in range(n)]
+s.processing(commands)
