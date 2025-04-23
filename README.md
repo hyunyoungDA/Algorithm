@@ -2,8 +2,8 @@
 
 이 저장소는 다양한 알고리즘 문제 풀이 과정을 정리한 공간입니다. 
 
-![hyuoyoung's GitHub stats](https://github-readme-stats.vercel.app/api?username=ohy041435&show_icons=true&theme=radical)
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=rlatngus1691)](https://solved.ac/rlatngus1691/)
+![hyuoyoung's GitHub stats](https://github-readme-stats.vercel.app/api?username=hyunyoungDA&show_icons=true&theme=radical)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=ohy041435)](https://solved.ac/ohy041435/)
 
 ### 📁 baekjoon/
 - 백준 문제 풀이 (단계별, 알고리즘 분류별로 정리)
